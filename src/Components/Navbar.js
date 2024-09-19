@@ -14,6 +14,7 @@ export default function Navbar(Props) {
         bgcolor: "greenyellow",
         marginTop: "0",
         position: "fixed",
+        zIndex:"1000"
       }}
     >
       <Grid

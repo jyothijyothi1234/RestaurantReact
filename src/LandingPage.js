@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
-    <Grid container item xs={12}>
+    <Grid container item xs={12} >
       <Grid
         item
         xs={12}
@@ -39,7 +39,7 @@ function LandingPage() {
         sx={{ position: "absolute", paddingTop:{xs:"80%",xl:"30%"}, paddingLeft:{xs:"40%",xl:"48%"} }}
       >
         <Button variant="contained" sx={{ height:{xs:"40px",xl: "80px"}, width:{xs:"80px",xl:"150px"} }}>
-          <Link  to="/Item">Order</Link>
+          <Link  to="/order">Order</Link>
           
         </Button>
       </Grid>
